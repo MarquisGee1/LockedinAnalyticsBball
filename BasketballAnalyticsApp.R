@@ -180,6 +180,6 @@ server <- function(input, output, session) {
 # Create the Shiny app
 shinyApp(ui = ui, server = server)
 
-rsconnect::writeManifest("/Users/marquisgee/Basketball")
+rsconnect::writeManifest("/Users/marquisgee/BasketballAnalyticsApp.R")
 
 
